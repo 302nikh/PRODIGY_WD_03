@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./game2.jpg'); /* Change this link to your desired image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+
+h1 {
+    color: #fff; 
+    font-size: 8vmin;
+    margin-top: 2rem;
+}
+
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+    
+    border: 0.3rem solid #2b2b2d; /* Add border to the game container */
+    border-radius: 3rem; /* Round the corners */
+    background-color: #212124; /* Add a background color with transparency */
+    padding: 2rem; /* Add padding */
+    box-shadow: 0 0 2rem rgba(0,0,0,0.5); /* Add a shadow */
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 12vmin;
+    background-color: #ffffc7;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+    
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3a3a4a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+
+.msg-container{
+    height: 25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
