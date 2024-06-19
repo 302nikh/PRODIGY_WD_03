@@ -4,7 +4,8 @@
 }
 
 body{
-    background-image: url('./game2.jpg'); /* Change this link to your desired image */
+    /*background-color: #7640ffe1; */
+    background-image: url('https://media.istockphoto.com/id/1292919739/vector/tic-tac-toe-school-game-colorful-seamless-pattern-for-fabric-and-print-on-the-paper.jpg?s=612x612&w=0&k=20&c=Q4gMspKHffPmhKuofb_Rb_WCD8uAgbsbXSKuWEcziM8='); /* Change this link to your desired image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,7 +14,7 @@ body{
 
 
 h1 {
-    color: #fff; 
+    color: #d4c412; /* Change this color to your desired color */
     font-size: 8vmin;
     margin-top: 2rem;
 }
@@ -36,9 +37,9 @@ h1 {
     gap: 1.5vmin;
 
     
-    border: 0.3rem solid #2b2b2d; /* Add border to the game container */
-    border-radius: 3rem; /* Round the corners */
-    background-color: #212124; /* Add a background color with transparency */
+    border: 0.3rem solid #152552; /* Add border to the game container */
+    border-radius: 2rem; /* Round the corners */
+    background-color: #152552; /* Add a background color with transparency */
     padding: 2rem; /* Add padding */
     box-shadow: 0 0 2rem rgba(0,0,0,0.5); /* Add a shadow */
 
@@ -51,15 +52,16 @@ h1 {
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     font-size: 12vmin;
+    /*color: teal;*/
     background-color: #ffffc7;
 }
 
 .x {
-    color: red;
+    color: red; /* Change this color to your desired color for X */
 }
 
 .o {
-    color: blue;
+    color: blue; /* Change this color to your desired color for O */
 }
 
 #reset-btn{
@@ -76,7 +78,7 @@ h1 {
 #new-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #3a3a4a;
+    background-color: #191913;
     color: #fff;
     border-radius: 1rem;
     border: none;
